@@ -26,14 +26,15 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <p class="currentDay"></p>
       <p class="confirm"></p>
+      <p class="clock"></p>
     </header>
     <div class="container">
       <!-- 9AM -->
       <div id="9am" class="row time-block">
       <div class="col-md-1 time">9AM</div>
-      <textarea class="col-md-10 description"></textarea>
+      <textarea class="col-md-10 description" id="9description"></textarea>
       <button class="saveBtn col-md-1"><i class="fa-check"></i></button> 
       </div>
       <!--  10AM -->
