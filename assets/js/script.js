@@ -14,6 +14,7 @@ var saveButton = $(".saveBtn");
 
 //event listener for the save button to save to local storage
 saveButton.on("click", function() {
+    //selects all of the time and description elements and stores them in key value pairs
     var time = $(this).siblings(".time").text();
     var input = $(this).siblings(".description").val();
 
